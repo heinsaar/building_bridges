@@ -40,11 +40,11 @@ private:
 	typedef Lattice<_Block*>::wanderer	_PanelPlacer;
 	typedef Lattice<_Block*>::wanderer	_Buildingptr;
 	typedef Lattice<_Block*>::wanderer	_Scanner;	
-	typedef queue<_Direction>			_Directions;
-	typedef string::iterator			_Symbolptr;	
-	typedef _Block*						_BlockSite;
-	typedef _Panel*						_PanelSite;
-	typedef size_t						_ID;
+	typedef queue<_Direction>		_Directions;
+	typedef string::iterator		_Symbolptr;	
+	typedef _Block*				_BlockSite;
+	typedef _Panel*				_PanelSite;
+	typedef size_t				_ID;
 
 	// STRUCT _Block
 	struct _Block {
